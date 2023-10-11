@@ -122,19 +122,18 @@ End Sub
 
 Private Sub Worksheet_Activate()
 
-Range("A3").Select
+barcodeInputRange.Select
 
 End Sub
 
 Private Sub Worksheet_Change(ByVal Target As Range)
 Application.enableEvents = False
 
-Dim rng As Range, rng2 As Range
+Dim rng As Range
 
 Set rng = ActiveSheet.Range(Target.Address)
-Set rng2 = ActiveSheet.Range("A3")
 
-If Not Application.Intersect(rng, rng2) Is Nothing Then
+If Not Application.Intersect(rng, barcodeInputRange) Is Nothing Then
 On Error GoTo safeExit
 
 If productBarcodeDict.exists(Target.Value) Then
@@ -155,6 +154,6 @@ End Sub
 
 Private Sub Worksheet_SelectionChange(ByVal Target As Range)
 
-Range("A3").Select
+barcodeInputRange.Select
 
 End Sub
