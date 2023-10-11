@@ -78,14 +78,14 @@ Application.Run ("calculateAmount")
 
 End Sub
 
-Private Sub stringBagButton_SpinDown()
+Private Sub stringBagSpinButton_SpinDown()
 
 Application.Run "decreaseAmount", productBarcodeDict("NABBAAC03")
 Application.Run ("calculateAmount")
 
 End Sub
 
-Private Sub stringBagButton_SpinUp()
+Private Sub stringBagSpinButton_SpinUp()
 
 Application.Run "increaseAmount", productBarcodeDict("NABBAAC03")
 Application.Run ("calculateAmount")
