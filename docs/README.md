@@ -15,12 +15,10 @@
 ```vba
 Private Sub 스핀버튼이름_SpinDown()
 Application.Run "decreaseAmount", productBarcodeDict(바코드)
-Application.Run ("calculateAmount")
 End Sub
 
 Private Sub 스핀버튼이름_SpinUp()
 Application.Run "increaseAmount", productBarcodeDict(바코드)
-Application.Run ("calculateAmount")
 End Sub
 ```
 

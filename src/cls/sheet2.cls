@@ -11,112 +11,96 @@ Attribute VB_Exposed = True
 Private Sub ballCapSpinButton_SpinDown()
 
 Application.Run "decreaseAmount", productBarcodeDict("NABBAAC01")
-Application.Run ("calculateAmount")
 
 End Sub
 
 Private Sub ballCapSpinButton_SpinUp()
 
 Application.Run "increaseAmount", productBarcodeDict("NABBAAC01")
-Application.Run ("calculateAmount")
 
 End Sub
 
 Private Sub halfSleeveLargeSpinButton_SpinDown()
 
 Application.Run "decreaseAmount", productBarcodeDict("NABBATP01")
-Application.Run ("calculateAmount")
 
 End Sub
 
 Private Sub halfSleeveLargeSpinButton_SpinUp()
 
 Application.Run "increaseAmount", productBarcodeDict("NABBATP01")
-Application.Run ("calculateAmount")
 
 End Sub
 
 Private Sub halfSleeveSmallSpinButton_SpinDown()
 
 Application.Run "decreaseAmount", productBarcodeDict("NABBATP02")
-Application.Run ("calculateAmount")
 
 End Sub
 
 Private Sub halfSleeveSmallSpinButton_SpinUp()
 
 Application.Run "increaseAmount", productBarcodeDict("NABBATP02")
-Application.Run ("calculateAmount")
 
 End Sub
 
 Private Sub slvlessSpinButton_SpinDown()
 
 Application.Run "decreaseAmount", productBarcodeDict("NABBATP03")
-Application.Run ("calculateAmount")
 
 End Sub
 
 Private Sub slvlessSpinButton_SpinUp()
 
 Application.Run "increaseAmount", productBarcodeDict("NABBATP03")
-Application.Run ("calculateAmount")
 
 End Sub
 
 Private Sub socksSpinButton_SpinDown()
 
 Application.Run "decreaseAmount", productBarcodeDict("NABBAAC02")
-Application.Run ("calculateAmount")
 
 End Sub
 
 Private Sub socksSpinButton_SpinUp()
 
 Application.Run "increaseAmount", productBarcodeDict("NABBAAC02")
-Application.Run ("calculateAmount")
 
 End Sub
 
 Private Sub stringBagSpinButton_SpinDown()
 
 Application.Run "decreaseAmount", productBarcodeDict("NABBAAC03")
-Application.Run ("calculateAmount")
 
 End Sub
 
 Private Sub stringBagSpinButton_SpinUp()
 
 Application.Run "increaseAmount", productBarcodeDict("NABBAAC03")
-Application.Run ("calculateAmount")
 
 End Sub
 
 Private Sub windBreakerBlackSpinButton_SpinDown()
 
 Application.Run "decreaseAmount", productBarcodeDict("NABBAOT01")
-Application.Run ("calculateAmount")
 
 End Sub
 
 Private Sub windBreakerBlackSpinButton_SpinUp()
 
 Application.Run "increaseAmount", productBarcodeDict("NABBAOT01")
-Application.Run ("calculateAmount")
 
 End Sub
 
 Private Sub windBreakerSilverSpinButton_SpinDown()
 
 Application.Run "decreaseAmount", productBarcodeDict("NABBAOT02")
-Application.Run ("calculateAmount")
 
 End Sub
 
 Private Sub windBreakerSilverSpinButton_SpinUp()
 
 Application.Run "increaseAmount", productBarcodeDict("NABBAOT02")
-Application.Run ("calculateAmount")
 
 End Sub
 
